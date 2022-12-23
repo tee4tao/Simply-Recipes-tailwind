@@ -9,10 +9,10 @@
       src="https://kit.fontawesome.com/5307dcf8d5.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Simply Recipes</title>
   </head>
   <body>
-    <main class="w-screen flex flex-col items-center mt-8">
+    <main class="w-screen flex flex-col items-center mt-8 relative">
       <!-- Navbar -->
       <nav class="max-w-6xl text-center w-11/12 mb-8">
         <div class="flex items-center justify-between text-center mb-8">
@@ -27,7 +27,7 @@
               >Recipes</a
             >
           </div>
-          <div class="toggle btn lg:hidden">
+          <div class="toggle-btn lg:hidden">
             <button class="bg-blue-500 w-12 rounded-lg h-8 hover:bg-blue-900">
               <i class="fa-solid fa-bars text-white"></i>
             </button>
@@ -87,7 +87,7 @@
       </section>
       <!-- Recipes Section -->
       <section
-        class="flex flex-col-reverse max-w-6xl w-11/12 lg:grid grid-cols-[1fr,_4fr]"
+        class="flex flex-col-reverse max-w-6xl w-11/12 lg:grid grid-cols-[1fr,_4fr] mb-32"
       >
         <div class="recipes-names">
           <h4 class="recipes-names_header text-3xl mb-4">Recipes</h4>
@@ -109,6 +109,8 @@
               alt=""
               class="h-60 w-full object-cover rounded-md"
             />
+            <h2 class="text-xl mt-2">Carne Asada</h2>
+            <h3>Prep : 15min | Cook : 5min</h3>
           </a>
           <a href="single-reciipe.html">
             <img
@@ -116,6 +118,8 @@
               alt=""
               class="h-60 w-full object-cover rounded-md"
             />
+            <h2 class="text-xl mt-2">Carne Asada</h2>
+            <h3>Prep : 15min | Cook : 5min</h3>
           </a>
           <a href="single-reciipe.html">
             <img
@@ -123,6 +127,8 @@
               alt=""
               class="h-60 w-full object-cover rounded-md"
             />
+            <h2 class="text-xl mt-2">Carne Asada</h2>
+            <h3>Prep : 15min | Cook : 5min</h3>
           </a>
           <a href="single-reciipe.html">
             <img
@@ -130,9 +136,22 @@
               alt=""
               class="h-60 w-full object-cover rounded-md"
             />
+            <h2 class="text-xl mt-2">Carne Asada</h2>
+            <h3>Prep : 15min | Cook : 5min</h3>
           </a>
         </div>
       </section>
+      <!-- Footer -->
+      <footer
+        class="flex justify-center items-center w-screen h-16 bg-black absolute bottom-0 mt-12"
+      >
+        <h3 class="w-full text-white text-center text-lg">
+          &copy; 2022 <span class="text-blue-500">SimplyRecipes</span> Built by
+          <span class="text-blue-500">TAO</span>
+        </h3>
+      </footer>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
