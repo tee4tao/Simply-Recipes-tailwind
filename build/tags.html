@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/5307dcf8d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Simply Recipes</title>
+  </head>
+  <body>
+    <main
+      class="w-screen flex flex-col items-center mt-8 relative min-h-screen"
+    >
+      <!-- Navbar -->
+      <nav class="max-w-6xl text-center w-11/12 mb-8">
+        <div class="flex items-center justify-between text-center mb-8">
+          <div class="logo">
+            <a href="index.html">
+              <img src="../assets/logo.svg" alt="SimplyRecipes" />
+            </a>
+          </div>
+          <div class="nav-links_row hidden w-56 mr-96 justify-between lg:flex">
+            <a href="index.html" class="text-lg hover:text-blue-500">Home</a>
+            <a href="about.html" class="text-lg hover:text-blue-500">About</a>
+            <a href="tags.html" class="text-lg hover:text-blue-500">Tags</a>
+            <a href="recipes.html" class="text-lg hover:text-blue-500"
+              >Recipes</a
+            >
+          </div>
+          <div class="toggle-btn lg:hidden">
+            <button class="bg-blue-500 w-12 rounded-lg h-8 hover:bg-blue-900">
+              <i class="fa-solid fa-bars text-white"></i>
+            </button>
+          </div>
+          <div
+            class="contact-btn hidden bg-blue-500 w-24 h-8 rounded-lg hover:bg-blue-900 lg:block"
+          >
+            <a href="contact.html" class="text-lg text-white">Contact</a>
+          </div>
+        </div>
+        <div class="nav-links_col flex flex-col lg:hidden">
+          <a
+            href="index.html"
+            class="text-xl hover:text-blue-500 py-4 border-t-2 border-black"
+            >Home</a
+          >
+          <a
+            href="about.html"
+            class="text-xl hover:text-blue-500 py-4 border-t-2 border-black"
+            >About</a
+          >
+          <a
+            href="tags.html"
+            class="text-xl hover:text-blue-500 py-4 border-t-2 border-black"
+            >Tags</a
+          >
+          <a
+            href="recipes.html"
+            class="text-xl hover:text-blue-500 py-4 border-t-2 border-b-2 border-black"
+            >Recipes</a
+          >
+          <a
+            href="contact.html"
+            class="text-xl text-white bg-blue-500 w-24 h-8 mx-auto mt-4 rounded-md hover:bg-blue-900"
+            >Contact</a
+          >
+        </div>
+      </nav>
+      <section class="tag-links max-w-6xl text-center w-11/12 mb-20">
+        <div
+          class="tag-links_container grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-6 justify-items-center"
+        >
+          <div
+            class="bg-gray-500 w-72 h-20 flex justify-center items-center text-center transition-all ease-linear duration-300 hover:bg-blue-500"
+          >
+            <a href="tag-template.html" class="text-white">
+              <h2 class="text-2xl">Beef</h2>
+              <p>1 recipe</p>
+            </a>
+          </div>
+          <div
+            class="bg-gray-500 w-72 h-20 flex justify-center items-center text-center transition-all ease-linear duration-300 hover:bg-blue-500"
+          >
+            <a href="tag-template.html" class="text-white">
+              <h2 class="text-2xl">Breakfast</h2>
+              <p>2 recipe</p>
+            </a>
+          </div>
+          <div
+            class="bg-gray-500 w-72 h-20 flex justify-center items-center text-center transition-all ease-linear duration-300 hover:bg-blue-500"
+          >
+            <a href="tag-template.html" class="text-white">
+              <h2 class="text-2xl">Carrots</h2>
+              <p>3 recipe</p>
+            </a>
+          </div>
+          <div
+            class="bg-gray-500 w-72 h-20 flex justify-center items-center text-center transition-all ease-linear duration-300 hover:bg-blue-500"
+          >
+            <a href="tag-template.html" class="text-white">
+              <h2 class="text-2xl">Dinner</h2>
+              <p>4 recipe</p>
+            </a>
+          </div>
+          <div
+            class="bg-gray-500 w-72 h-20 flex justify-center items-center text-center transition-all ease-linear duration-300 hover:bg-blue-500"
+          >
+            <a href="tag-template.html" class="text-white">
+              <h2 class="text-2xl">Food</h2>
+              <p>5 recipe</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer
+        class="flex justify-center items-center w-screen h-16 bg-black absolute bottom-0 mt-12"
+      >
+        <h3 class="w-full text-white text-center text-lg">
+          &copy; 2022 <span class="text-blue-500">SimplyRecipes</span> Built by
+          <span class="text-blue-500">TAO</span>
+        </h3>
+      </footer>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
