@@ -4,3 +4,7 @@ toggleBtn.addEventListener("click", () => {
   console.log("hi");
   navLinks.classList.toggle("hidden");
 });
+let year = document.querySelector(`.year`);
+let date = new Date();
+let yearValue = date.getFullYear();
+year.textContent = yearValue;
