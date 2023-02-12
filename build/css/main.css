@@ -650,6 +650,10 @@ video {
   height: 2rem;
 }
 
+.h-0 {
+  height: 0px;
+}
+
 .h-72 {
   height: 18rem;
 }
@@ -660,10 +664,6 @@ video {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-0 {
-  height: 0px;
 }
 
 .h-96 {
