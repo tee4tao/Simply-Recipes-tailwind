@@ -8,3 +8,7 @@
   justify-content: center;
   height: 100vh;
 } */
+.show-links {
+  height: 18.37rem;
+  transition: all linear 0.3s;
+}
